@@ -1,0 +1,39 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+h1{
+    color: red;
+}
+h3{
+    color: purple;
+}
+ /* id will be selected by using # */
+#login{
+    color: red;
+ }
+ /* class selector can be used by calling a dot infront of this */
+ p a{
+    color: red;
+    background-color: yellow;
+    
+ }
+ p + h3{
+    text-decoration: underline;
+ }
+ .upvote + button{
+    color: blue;
+    background-color: red;
+ }
+ div > input{
+    color:teal;
+    background-color: red;
+}
+ input[type]{
+    color: ghostwhite;
+}
+button:hover{
+    background-color: white;
+}
+button:active{
+    background-color: hotpink;
+}

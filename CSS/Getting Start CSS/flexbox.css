@@ -1,0 +1,32 @@
+.U{
+    background-color: azure;
+    display: flex;
+    flex-direction:row;
+    width: 1000px;
+    height: 1000px;
+    border: 2px solid black;
+    margin: 10px auto;
+    /* justify-content: center; */
+    /* flex-wrap: wrap; */
+    /* align-items: baseline; */
+    align-content: flex-end;
+   
+}
+#A{
+    background-color: limegreen;
+    height: 200px;
+    width: 200px;
+}
+#B{
+    background-color: yellow;
+    height: 200px;
+    width: 200px;
+}
+#C{
+    background-color: hotpink;
+    height: 200px;
+    width: 200px;
+}
+h1{
+    text-align: center;
+}
